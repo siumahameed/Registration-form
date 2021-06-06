@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    padding:0;
+    background:#34495e;
+}
+.box{
+    background:#33363d;
+    width:350px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 50px;
+    height:450px;
+    text-align: center;
+}
+
+.box:hover{
+    background:black;
+    box-shadow: 0 0 28px #4cd137, 0 0 54px #4cd137, 0 0 98px #4cd137;
+}
+h1{
+    color:white;
+    font-family:cursive;
+}
+
+.txttyp1{
+    border:0;
+    background:none;
+    color:white;
+    font-size:16px;
+    font-family:cursive;
+    padding:10px;
+    border: 3px solid #4cd137;
+    outline:none;
+    display:inline-block;
+    border-radius: 8px;
+    margin-bottom:13px;
+   width:220px;
+}
+
+.txttyp1:focus{
+    width:265px;
+    border:5px solid #4cd137;
+}
+
+.txttyp2{
+    border:0;
+    background:none;
+    color:white;
+    font-size:16px;
+    font-family:cursive;
+    padding:10px;
+    border: 3px solid #4cd137;
+    margin-bottom:13px;
+    outline:none;
+    display:inline-block;
+    border-radius: 8px;
+    width:220px;
+}
+
+.txttyp2:focus{
+    width:265px;
+    border:5px solid #4cd137;
+} 
+.txttyp3{
+    border:0;
+    background:none;
+    color:white;
+    font-size:16px;
+    font-family:cursive;
+    padding:10px;
+    border: 3px solid #4cd137;
+    margin-bottom:13px;
+    outline:none;
+    display:inline-block;
+    border-radius: 8px;
+    width:220px;
+}
+
+.txttyp3:focus{
+    width:265px;
+    border:5px solid #4cd137;
+}
+
+.pass1{
+    border:0;
+    background:none;
+    color:white;
+    font-size:16px;
+    font-family:cursive;
+    padding:10px;
+    border: 3px solid #4cd137;
+    margin-bottom:13px;
+    outline:none;
+    display:inline-block;
+    border-radius: 8px;
+    width:220px;
+}
+.pass1:focus{
+    width:265px;
+    border:5px solid #4cd137;
+
+}
+
+.pass2{
+    border:0;
+    background:none;
+    color:white;
+    font-size:16px;
+    font-family:cursive;
+    padding:10px;
+    border: 3px solid #4cd137;
+    margin-bottom:13px;
+    outline:none;
+    display:inline-block;
+    border-radius: 8px;
+    width:220px;
+}
+.pass2:focus{
+    width:265px;
+    border:5px solid #4cd137;
+}
+
+
+.submit{
+    border: 3px solid #3498db;
+    background:none;
+    outline:none;
+    padding:12px;
+    color:white;
+    font-size:20px;
+    font-family: cursive;
+    border-radius:22px ;
+}
+
+.submit:hover{
+    border:5px solid #3498db;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit:focus{
+    box-shadow: 0 0 10px #3498db, 0 0 30px #3498db, 0 0 70px #3498db;
+}
+
+p{
+   font-size:14px;
+   font-family:cursive;
+   color:#4cd137;
+}
+b{
+    color:red
+}
+
+a{
+    
+    text-decoration: none;
+    font-size:15px;
+    font-family:cursive;
+    border:3px solid red;
+    padding:3px;
+    color:white
+}
+
+a:focus{
+    text-transform: uppercase;
+    box-shadow:0 0 20px red, 0 0 40px red, 0 0 80px red;
+}
